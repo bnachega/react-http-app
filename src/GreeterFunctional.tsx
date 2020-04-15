@@ -23,15 +23,13 @@ function Greeter() {
     return (
         <form>
             <TextInput 
-                label="Please enter your first name"
-                type="text"
+                label="Please enter your First name"
                 id = "first-name"
                 updateField={setFirstName}
                 value={firstName}/>
 
             <TextInput 
                 label="Please enter your Last name"
-                type="text"
                 id = "last-name"
                 updateField={setLastName}
                 />

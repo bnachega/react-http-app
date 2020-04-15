@@ -5,9 +5,8 @@ import Greeter1 from "./GreeterFunctional"
 function App() {
   return (
     <main className="container">
-      <h1>Not Really Discover Banking Services</h1>
 
-      <Greeter companyName="Discover's"/>
+      <Greeter companyName="With great power comes great responsibility!!"/>
       <Greeter1/>
     </main>
   );

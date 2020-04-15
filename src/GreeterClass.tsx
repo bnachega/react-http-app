@@ -9,7 +9,7 @@ interface GreeterProps {
 class Greeter extends Component<GreeterProps> {
     render() {
         return (
-            <p>Greetings from {this.props.companyName}!</p>
+            <h1>Greetings... {this.props.companyName}!</h1>
         );
     }
 
